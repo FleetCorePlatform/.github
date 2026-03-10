@@ -1,0 +1,30 @@
+name: Refactor
+description: Internal change with no behavior difference
+title: "[Refactor]: "
+type: Refactor
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: area
+    attributes:
+      label: Target Code Area
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - agent
+        - backend
+        - deployment
+        - desktop
+        - lib
+    validations:
+      required: false

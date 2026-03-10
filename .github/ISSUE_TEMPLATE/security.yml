@@ -1,0 +1,21 @@
+name: Security
+description: Vulnerability or exposure
+title: "[Security]: "
+type: Security
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "WARNING: Only report non-critical vulnerabilities here. For critical or system-breaking issues that pose direct risk if disclosed publicly, contact us via email or Discord instead."
+  - type: textarea
+    id: scope
+    attributes:
+      label: Target Component / Scope
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Security Objective
+    validations:
+      required: true

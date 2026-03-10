@@ -1,0 +1,30 @@
+name: Enhancement
+description: Improvement to existing functionality
+title: "[Enhancement]: "
+type: Enhancement
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: target
+    attributes:
+      label: Target Component
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Proposed Improvement
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - agent
+        - backend
+        - deployment
+        - desktop
+        - lib
+    validations:
+      required: false

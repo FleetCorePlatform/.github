@@ -1,0 +1,30 @@
+name: Test
+description: Missing or failing tests
+title: "[Test]: "
+type: Test
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: Target Scope
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Proposed Test Implementation
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - agent
+        - backend
+        - deployment
+        - desktop
+        - lib
+    validations:
+      required: false

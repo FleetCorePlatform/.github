@@ -1,0 +1,30 @@
+name: Performance
+description: Measurable degradation or optimization target
+title: "[Performance]: "
+type: Performance
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: bottleneck
+    attributes:
+      label: Bottleneck Description
+    validations:
+      required: true
+  - type: input
+    id: metrics
+    attributes:
+      label: Current Metrics
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - agent
+        - backend
+        - deployment
+        - desktop
+        - lib
+    validations:
+      required: false
