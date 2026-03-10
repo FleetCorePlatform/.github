@@ -3,6 +3,7 @@ description: Missing or failing tests
 title: "[Test]: "
 type: Test
 labels: ["needs-triage"]
+project: "FleetCore"
 body:
   - type: textarea
     id: scope
@@ -27,4 +28,4 @@ body:
         - desktop
         - lib
     validations:
-      required: false
+      required: true

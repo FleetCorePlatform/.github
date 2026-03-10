@@ -3,6 +3,7 @@ description: Internal change with no behavior difference
 title: "[Refactor]: "
 type: Refactor
 labels: ["needs-triage"]
+project: "FleetCore"
 body:
   - type: textarea
     id: area
@@ -27,4 +28,4 @@ body:
         - desktop
         - lib
     validations:
-      required: false
+      required: true

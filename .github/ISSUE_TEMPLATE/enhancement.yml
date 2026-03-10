@@ -3,6 +3,7 @@ description: Improvement to existing functionality
 title: "[Enhancement]: "
 type: Enhancement
 labels: ["needs-triage"]
+project: "FleetCore"
 body:
   - type: textarea
     id: target
@@ -27,4 +28,4 @@ body:
         - desktop
         - lib
     validations:
-      required: false
+      required: true

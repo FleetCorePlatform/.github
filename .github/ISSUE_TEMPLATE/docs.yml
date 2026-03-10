@@ -3,6 +3,7 @@ description: Documentation missing, wrong, or outdated
 title: "[Docs]: "
 type: Docs
 labels: ["needs-triage"]
+project: "FleetCore"
 body:
   - type: input
     id: link

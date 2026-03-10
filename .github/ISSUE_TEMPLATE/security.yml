@@ -3,6 +3,7 @@ description: Vulnerability or exposure
 title: "[Security]: "
 type: Security
 labels: ["needs-triage"]
+project: "FleetCore"
 body:
   - type: markdown
     attributes:
@@ -17,5 +18,17 @@ body:
     id: objective
     attributes:
       label: Security Objective
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - agent
+        - backend
+        - deployment
+        - desktop
+        - lib
     validations:
       required: true

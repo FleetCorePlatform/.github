@@ -3,6 +3,7 @@ description: Measurable degradation or optimization target
 title: "[Performance]: "
 type: Performance
 labels: ["needs-triage"]
+project: "FleetCore"
 body:
   - type: textarea
     id: bottleneck
@@ -27,4 +28,4 @@ body:
         - desktop
         - lib
     validations:
-      required: false
+      required: true
