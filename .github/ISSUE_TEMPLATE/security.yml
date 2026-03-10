@@ -3,7 +3,7 @@ description: Vulnerability or exposure
 title: "[Security]: "
 type: Security
 labels: ["needs-triage"]
-projects: ["FleetCore"]
+projects: ["FleetCorePlatform/1"]
 body:
   - type: markdown
     attributes:

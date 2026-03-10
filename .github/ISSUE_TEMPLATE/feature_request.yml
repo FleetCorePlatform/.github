@@ -3,7 +3,7 @@ description: A request, idea, or new functionality
 title: "[Feature]: "
 type: Feature
 labels: ["needs-triage"]
-projects: ["FleetCore"]
+projects: ["FleetCorePlatform/1"]
 body:
   - type: textarea
     id: problem

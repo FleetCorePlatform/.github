@@ -3,7 +3,7 @@ description: Measurable degradation or optimization target
 title: "[Performance]: "
 type: Performance
 labels: ["needs-triage"]
-projects: ["FleetCore"]
+projects: ["FleetCorePlatform/1"]
 body:
   - type: textarea
     id: bottleneck

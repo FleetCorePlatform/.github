@@ -3,7 +3,7 @@ description: Missing or failing tests
 title: "[Test]: "
 type: Test
 labels: ["needs-triage"]
-projects: ["FleetCore"]
+projects: ["FleetCorePlatform/1"]
 body:
   - type: textarea
     id: scope

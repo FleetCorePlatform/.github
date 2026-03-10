@@ -3,7 +3,7 @@ description: An unexpected problem or behavior
 title: "[Bug]: "
 type: Bug
 labels: ["needs-triage"]
-projects: ["FleetCore"]
+projects: ["FleetCorePlatform/1"]
 body:
   - type: textarea
     id: description
