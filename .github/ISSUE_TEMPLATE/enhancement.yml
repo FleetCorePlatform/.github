@@ -3,7 +3,7 @@ description: Improvement to existing functionality
 title: "[Enhancement]: "
 type: Enhancement
 labels: ["needs-triage"]
-project: "FleetCore"
+projects: ["FleetCore"]
 body:
   - type: textarea
     id: target
